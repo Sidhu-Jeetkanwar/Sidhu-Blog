@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sidhu blogs</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Sidhu Blogs</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Topics
+          </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Coding</a></li>
+              <li><a class="dropdown-item" href="#">Technology</a></li>
+              <li><a class="dropdown-item" href="#">Science</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Social life</a></li>
+              <li><a class="dropdown-item" href="#">Politics</a></li>
+            </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ContactUs.html">Contact Us</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search" style="margin-right: 300px">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="width:425px"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#SignUpModal">Sign Up</button>
+      <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#LoginModal">Login</button>
+    </div>
+  </div>
+</nav>
+
+<!-- Login Modal -->
+<div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="LoginModalLabel">Login to Sidhu Blogs</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Username</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Sign up Modal -->
+<div class="modal fade" id="SignUpModal" tabindex="-1" aria-labelledby="SignUpModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="SignUpModalLabel">Sign Up to Sidhu Blogs</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Username</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Click here to accept our <a href="Privacy-terms.html"> Privacy&#x00B7;Terms</a></label>
+          </div>
+          <button type="submit" class="btn btn-primary">Sign up</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="emiliano-vittoriosi-fvxNerA8uk0-unsplash%20(1).jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Welcome to Sidhu Blogs</h1>
+          <h3>Technology, advancement and trend.</h3>
+          <button class="btn btn-danger">Tech</button>
+          <button class="btn btn-warning">Science</button>
+          <button class="btn btn-success">Social Life</button>
+          <button class="btn btn-info">Politics</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="luca-bravo-XJXWbfSo2f0-unsplash%20(1).jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Learn about the changes.</h1>
+          <h3>Blogs on Ai,ML,quantum computing etc.</h3>
+          <button class="btn btn-danger">Ai/Ml</button>
+          <button class="btn btn-warning">quantum computing</button>
+          <button class="btn btn-success">Vibe coding</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="thisisengineering-t4qI2IDcL5s-unsplash%20(1).jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>QnA and doubts</h1>
+          <h3>Get you questions answered and doubts cleared.</h3>
+          <button class="btn btn-danger">Support team</button>
+          <button class="btn btn-warning">Ask</button>
+        </div>
+      </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    </div></div>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4 my-4 mx-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="wonderlane-b9-odQi5oDo-unsplash.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">What is Quantum mechanics?</h5>
+        <p class="card-text">Quantum mechanics is the fundamental theory in physics that explains how nature behaves at the smallest scales, such as atoms...</p>
+        <a href="">Learn More</a>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="stone-john-CBH6lmQXhu8-unsplash.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">What is Ai/Ml</h5>
+        <p class="card-text">Artificial Intelligence and Machine Learning are fields of computer science that focus...</p>
+        <a href="">Learn More</a>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="campaign-creators-gMsnXqILjp4-unsplash.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Will AI consume IT jobs?</h5>
+        <p class="card-text">Artificial Intelligence and automation are increasingly capable of handling routine, repetitive, and data‑driven tasks that</p>
+        <a href="">Learn More</a>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+  <hr>
+  <div class="container">
+    <div class="row featurette d-flex justify-content-center align-items-center">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1 ">About
+          <span class="text-body-secondary">C++</span>
+        </h2>
+        <p class="lead">C++ is a fast, versatile programming language used to build operating systems, games, and applications where performance matters. It supports object-oriented programming and gives developers control over memory, making it ideal for complex, high‑efficiency software.</p>
+      </div> <div class="col-md-5">
+      <img class="img-fluid" src="Embedded%20Programming%20C.png" alt="">
+        <title>Placeholder</title>
+        <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect>
+
+      </svg>
+    </div>
+    </div>
+  </div>
+  <hr>
+    <div class="container">
+    <div class="row featurette d-flex justify-content-center align-items-center">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1 ">About
+          <span class="text-body-secondary">Python</span>
+        </h2>
+        <p class="lead">Python is a simple, flexible programming language known for its readability and ease of use. It’s widely used in web development, data science, artificial intelligence, automation, and everyday scripting. Because of its huge library support and beginner‑friendly syntax, Python is one of the most popular choices for building powerful applications quickly and efficiently.</p>
+      </div> <div class="col-md-5">
+     <img class="img-fluid" src="png-transparent-python-logo-thumbnail.png" height="360" width="360"/>
+      <title>Placeholder</title>
+        <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect>
+
+      </svg>
+    </div>
+    </div>
+  </div>
+  <hr>
+    <div class="container">
+    <div class="row featurette d-flex justify-content-center align-items-center">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1 ">About
+          <span class="text-body-secondary">HTML,CSS and Javascript</span>
+        </h2>
+        <p class="lead">HTML, CSS, and JavaScript are the main web development languages. HTML builds the structure, CSS styles it, and JavaScript makes it interactive. Together, they create modern, dynamic websites.</p>
+      </div> <div class="col-md-5">
+      <img class="img-fluid" src="web%20dev.png">
+        <title>Placeholder</title>
+        <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect>
+      </svg>
+    </div>
+    </div>
+  </div>
+
+  <footer class="footer mt-auto py-3 bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark" style="text-align: center;">
+    <div class="container">
+      <span class="text-body-secondary">Made by Jeetkanwar Singh Sidhu</span>
+      <h5 style="color: rgba(222, 226, 230, 0.75)"> &#x00A9; Copyrighted by Jeetkanwar Singh Sidhu</h5>
+      <div id="container-foot-1">
+        <div class="container-foot-1-box">
+          <p style="font-size: 16px; font-weight: bold;">Creators</p>
+          <p style="font-size: 12px;  color: rgba(222, 226, 230, 0.65);">Jeetkanwar Singh Sidhu</p>
+        </div>
+        <div class="container-foot-1-box">
+          <p style="font-size: 16px; font-weight: bold;">Other Projects</p>
+          <p style="font-size: 12px; color: color: rgba(222, 226, 230, 0.65);">None</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</html>

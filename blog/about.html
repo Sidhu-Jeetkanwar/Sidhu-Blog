@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Us</title>
+    <link rel="stylesheet" href="bootstrap.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+          crossorigin="anonymous">
+  </head>
+  <body>
+     <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Sidhu Blogs</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Topics
+          </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Coding</a></li>
+              <li><a class="dropdown-item" href="#">Technology</a></li>
+              <li><a class="dropdown-item" href="#">Science</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Social life</a></li>
+              <li><a class="dropdown-item" href="#">Politics</a></li>
+            </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ContactUs.html">Contact Us</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search" style="margin-right: 300px">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="width:425px"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#SignUpModal">Sign Up</button>
+      <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#LoginModal">Login</button>
+    </div>
+  </div>
+</nav>
+
+     <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="LoginModalLabel">Login to Sidhu Blogs</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Username</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+     <div class="modal fade" id="SignUpModal" tabindex="-1" aria-labelledby="SignUpModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="SignUpModalLabel">Sign Up to Sidhu Blogs</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Username</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Click here to accept our <a href="Privacy-terms.html"> Privacy&#x00B7;Terms</a></label>
+          </div>
+          <button type="submit" class="btn btn-primary">Sign up</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="container-about-page-1">
+        <h1>About Us</h1>
+    </div>
+
+       <div class="row row-cols-1 row-cols-md-3 g-4 my-4 mx-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="wonderlane-b9-odQi5oDo-unsplash.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">World Class Professors</h5>
+        <p class="card-text">Professors around the globe blog here.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="stone-john-CBH6lmQXhu8-unsplash.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">World connectivity.</h5>
+        <p class="card-text">People around the globe blog here.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="campaign-creators-gMsnXqILjp4-unsplash.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Coding conferences around the globe</h5>
+        <p class="card-text">Join coding conferences where tech enthusiasts share there knowledge and professionals clear doubts </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+     <hr>
+    <div class="container-about-page-2">
+            <div class="container-about-page-2-div">
+                <h1>Our Origin</h1>
+                <p>This blog site was formed in 2020 after noticing how many people struggled with learning coding and tackling project challenges. The idea was to create a space where learners and developers could openly discuss problems, share solutions, and grow together. It became a hub not only for coding help but also for broader project discussions—whether technical or creative—making it a supportive community for anyone passionate about building and problem‑solving.</p>
+            </div>
+            <div class="container-about-page-2-div">
+                <h1>Our Mission</h1>
+                <p>Our mission is to make coding and project development easier, more collaborative, and less intimidating for everyone. Since 2020, we’ve aimed to build a supportive community where learners and developers can share knowledge, solve problems together, and grow their skills. By combining discussions on both coding challenges and broader project issues, we strive to empower people to overcome obstacles, learn faster, and create with confidence.</p>
+            </div>
+    </div>
+     <hr>
+    <div class="container-about-page-2" style="margin-bottom: 25px;">
+        <div style="text-align: center">
+            <h1>Our Future Goals</h1>
+            <p>For our future goals, we aim to expand this community into a global hub for learners and developers. Building on the foundation we set in 2020, we plan to introduce more interactive resources, tutorials, and collaborative spaces where people can not only solve coding problems but also share complete project journeys. Our vision is to foster innovation, encourage teamwork, and provide guidance that helps individuals turn ideas into impactful creations—making coding and project development accessible, engaging, and inspiring for everyone.</p>
+        </div>
+    </div>
+     <hr>
+     <div class="container-about-page-2">
+            <div class="container-about-page-2-div">
+                <h1>Community Impact</h1>
+                <p>Since our start in 2020, this blog has grown into a supportive space where learners and developers connect to overcome challenges in coding and project building. By sharing experiences, solutions, and insights, our community has helped countless individuals gain confidence, solve real problems, and push their projects forward. The impact lies not just in technical growth but also in fostering collaboration, encouragement, and a sense of belonging among people passionate about learning and creating.</p>
+            </div>
+            <div class="container-about-page-2-div">
+                <h1>What We Offer</h1>
+                <p>We provide a platform where coding tutorials, project discussions, and problem‑solving come together. From beginner‑friendly guides to advanced tips, our blog covers a wide range of topics to support learners at every stage. Beyond code, we also encourage conversations about project design, workflow, and creative problem‑solving, making this a holistic resource for anyone looking to improve their skills and bring ideas to life.</p>
+            </div>
+    </div>
+     <hr>
+    <div class="container-about-page-2" style="margin-bottom: 25px;">
+        <div style="text-align: center">
+            <h1>Our Values</h1>
+            <p>We believe learning should be open, collaborative, and supportive. Since 2020, our values have guided us in creating a space where everyone—whether beginner or experienced—feels welcome to share, ask, and grow. We value community over competition, encouraging teamwork and mutual respect. We value innovation, pushing boundaries in coding and project development. And above all, we value accessibility, making knowledge and resources easy to understand and available to all. These principles shape everything we do and ensure our blog remains a place where ideas thrive.</p>
+        </div>
+    </div>
+
+
+     <footer class="footer mt-auto py-3 bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark" style="text-align: center;">
+    <div class="container">
+      <span class="text-body-secondary">Made by Jeetkanwar Singh Sidhu</span>
+      <h5 style="color: rgba(222, 226, 230, 0.75)"> &#x00A9; Copyrighted by Jeetkanwar Singh Sidhu</h5>
+    </div>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+  </body>
+</html>
